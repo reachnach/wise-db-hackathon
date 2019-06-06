@@ -1,4 +1,4 @@
-package com.wise.db.hackathon;
+package com.wise.db.hackathon.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
