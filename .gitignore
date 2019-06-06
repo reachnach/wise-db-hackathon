@@ -3,3 +3,10 @@
 .idea/
 .mvn/
 target/
+.class
+.project
+.classpath
+bin/
+.settings
+
+
