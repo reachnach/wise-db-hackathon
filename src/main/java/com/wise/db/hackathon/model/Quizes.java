@@ -1,15 +1,18 @@
 package com.wise.db.hackathon.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Category {
+public class Quizes {
 
 	@Id
 	private Integer id;
 
-	private String name;
+	@Column(name = "name")
+	private String quizName;
+
 
 	public Integer getId() {
 		return id;
@@ -19,12 +22,7 @@ public class Category {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getQuizName() {
+		return quizName;
 	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
 }
